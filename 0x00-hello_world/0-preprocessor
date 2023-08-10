@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=$CFILE | gcc $CFILE -o c
+cfile="$CFILE" | cpp "$cfile" -o c

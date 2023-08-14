@@ -9,7 +9,7 @@ int main(void)
 	int nb = 97;
 	int nb2 = 65;
 
-	while (nb <= 123)
+	while (nb <= 122)
 	{
 		putchar(nb);
 		nb++;

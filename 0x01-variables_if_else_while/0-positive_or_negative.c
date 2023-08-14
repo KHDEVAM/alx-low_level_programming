@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - Prints the number nature
- * 
+/**
+ * main - Prints the number nature
+ * Description : Check the number nature
  * Return: Return 0 if nothing
  */
 int main(void)

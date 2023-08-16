@@ -2,7 +2,8 @@
 /**
  * _islower - my program
  * Description: checks for lowercase character
- * Return: 0 or 1
+ * @c: The variable that stocks the character for cheching
+ * Return: 1 if the charater is lowercase or o if not
  */
 int _islower(int c)
 {

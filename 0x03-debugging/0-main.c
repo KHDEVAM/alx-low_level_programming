@@ -7,9 +7,9 @@
 */
 int main(void)
 {
-	int test;
+	int i;
 
-	test = 0;
-	positive_or_negative(test);
+	i = 0;
+	positive_or_negative(i);
 	return (0);
 }

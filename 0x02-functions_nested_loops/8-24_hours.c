@@ -14,13 +14,13 @@ void jack_bauer(void)
 		{
 			if ((z <= 1 && y <= 9) || (z <= 2 && y <= 3))
 			{
-				for (x = 0; z <= 5; x++)
+				for (x = 0; x <= 5; x++)
 				{
 					for (w = 0; w <= 9; w++)
 					{
 						_putchar(z + '0');
 						_putchar(y + '0');
-						/**_putchar(58);*/
+						putchar(58);
 						_putchar(x + '0');
 						_putchar(w + '0');
 						_putchar('\n');
